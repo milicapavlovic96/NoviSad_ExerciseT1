@@ -5,8 +5,9 @@ import org.junit.Test;
 public class TestBowling {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void test_isStrike() throws BowlingException {
+		Frame frame=new Frame(10,4);
+		assertTrue(frame.isStrike());
 	}
 
 }

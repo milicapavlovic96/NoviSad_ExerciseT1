@@ -1,0 +1,10 @@
+FileOpenedAction 1494524967544 BowlingException.java 58 0 0 0
+FileOpenedAction 1494524998859 Frame.java 671 6 7 0
+FileOpenedAction 1494525052154 BowlingGame.java 708 4 1 0
+FileOpenedAction 1494525256280 TestBowling.java 165 1 1 0
+RefactoringAction 1494526182116 TestBowling.java RENAME test()=><initializer /1> null
+RefactoringAction 1494526184627 TestBowling.java RENAME <initializer /1>=>void frame1_() METHOD
+RefactoringAction 1494526190640 TestBowling.java RENAME frame1_()=>void frame1_test() METHOD
+RefactoringAction 1494526425023 TestBowling.java RENAME frame1_test()=>void TEST_ FIELD
+RefactoringAction 1494526431539 TestBowling.java RENAME TEST_=>void test_isStrike FIELD
+EditAction 1494526535648 TestBowling.java 231 1 2 1
