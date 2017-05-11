@@ -54,3 +54,5 @@ RefactoringAction 1494528706898 BowlingGame.java ADD import org.junit.Test IMPOR
 RefactoringAction 1494528710410 BowlingGame.java REMOVE import org.junit.Assert.assertFalse IMPORT
 RefactoringAction 1494528710410 BowlingGame.java REMOVE import org.junit.Test IMPORT
 EditAction 1494528912718 TestBowling.java 1148 6 20 6
+CompilationAction 1494528913023 TestBowling.java
+EditAction 1494528913042 BowlingGame.java 1156 5 5 0
