@@ -39,3 +39,11 @@ EditAction 1494526741587 TestBowling.java 638 4 8 4
 UnitTestCaseAction 1494526742117 TestBowling.java FAIL
 UnitTestSessionAction 1494526742118 TestBowling.java FAIL
 EditAction 1494526745419 TestBowling.java 638 4 8 4
+UnitTestCaseAction 1494526747706 TestBowling.java OK
+UnitTestSessionAction 1494526747707 TestBowling.java OK
+RefactoringAction 1494527940743 TestBowling.java ADD void test_NotSpare()/2 METHOD
+RefactoringAction 1494527946258 TestBowling.java RENAME test_NotSpare()/2=>void test_bonus() METHOD
+RefactoringAction 1494528375349 BowlingGame.java ADD Frame gey FIELD
+RefactoringAction 1494528378361 BowlingGame.java RENAME gey=>Frame getBonus FIELD
+RefactoringAction 1494528379372 BowlingGame.java RENAME getBonus=>Frame getBonus() METHOD
+EditAction 1494528601934 Frame.java 765 6 8 0
