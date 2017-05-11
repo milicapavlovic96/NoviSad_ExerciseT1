@@ -25,7 +25,7 @@ public class TestBowling {
 	@Test
 	public void test_NotSpare() throws BowlingException {
 		Frame frame=new Frame(6,4);
-		assertTrue(frame.isSpare());
+		assertFalse(frame.isSpare());
 	}
 
 }
