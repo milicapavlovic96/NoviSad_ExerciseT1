@@ -10,3 +10,6 @@ RefactoringAction 1494526431539 TestBowling.java RENAME TEST_=>void test_isStrik
 EditAction 1494526535648 TestBowling.java 231 1 2 1
 EditAction 1494526536949 Frame.java 728 6 7 0
 EditAction 1494526537156 BowlingGame.java 830 4 4 0
+UnitTestCaseAction 1494526538826 TestBowling.java OK
+UnitTestSessionAction 1494526538829 TestBowling.java OK
+EditAction 1494526545081 TestBowling.java 231 1 2 1
