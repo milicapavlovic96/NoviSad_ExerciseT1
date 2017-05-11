@@ -80,3 +80,4 @@ RefactoringAction 1494529314692 TestBowling.java RENAME test_bonus_is()=>void te
 RefactoringAction 1494529316202 TestBowling.java RENAME test_bonus_isSparw()=>void test_bonus_isSpare() METHOD
 RefactoringAction 1494529480383 TestBowling.java REMOVE test_bonus_isSpare() METHOD
 EditAction 1494530030357 BowlingGame.java 1216 5 8 0
+EditAction 1494530031686 TestBowling.java 1135 5 10 5

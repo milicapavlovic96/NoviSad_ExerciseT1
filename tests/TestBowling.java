@@ -34,8 +34,8 @@ public class TestBowling {
 		assertEquals(11,frame.score());
 	}
 	
-	@Test
-	public void test_bonus() throws BowlingException {
+	/*@Test
+	public void test_bonus_isSpare() throws BowlingException {
 		BowlingGame g= new BowlingGame();
 		Frame frame1=new Frame(1,4);
 		Frame frame2=new Frame(4,5);
@@ -47,7 +47,7 @@ public class TestBowling {
 		g.addFrame(frame2);
 		g.addFrame(frame3);
 		g.addFrame(frame4);
-		assertEquals(60,g.score());
+		assertEquals();*/
 	}
 
-}
+
