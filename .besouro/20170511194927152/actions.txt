@@ -47,3 +47,10 @@ RefactoringAction 1494528375349 BowlingGame.java ADD Frame gey FIELD
 RefactoringAction 1494528378361 BowlingGame.java RENAME gey=>Frame getBonus FIELD
 RefactoringAction 1494528379372 BowlingGame.java RENAME getBonus=>Frame getBonus() METHOD
 EditAction 1494528601934 Frame.java 765 6 8 0
+RefactoringAction 1494528657374 TestBowling.java ADD void test_NotSpare()/2 METHOD
+RefactoringAction 1494528662389 TestBowling.java RENAME test_NotSpare()/2=>void test_score() METHOD
+RefactoringAction 1494528706897 BowlingGame.java ADD import org.junit.Assert.assertFalse IMPORT
+RefactoringAction 1494528706898 BowlingGame.java ADD import org.junit.Test IMPORT
+RefactoringAction 1494528710410 BowlingGame.java REMOVE import org.junit.Assert.assertFalse IMPORT
+RefactoringAction 1494528710410 BowlingGame.java REMOVE import org.junit.Test IMPORT
+EditAction 1494528912718 TestBowling.java 1148 6 20 6

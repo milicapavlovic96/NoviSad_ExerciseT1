@@ -27,5 +27,27 @@ public class TestBowling {
 		Frame frame=new Frame(6,5);
 		assertFalse(frame.isSpare());
 	}
+	
+	@Test
+	public void test_score() throws BowlingException {
+		Frame frame=new Frame(6,5);
+		assertEquals(11,frame.score());
+	}
+	
+	@Test
+	public void test_bonus() throws BowlingException {
+		BowlingGame g= new BowlingGame();
+		Frame frame1=new Frame(1,4);
+		Frame frame2=new Frame(4,5);
+		Frame frame3=new Frame(6,4);
+		Frame frame4=new Frame(5,5);
+		
+		
+		g.addFrame(frame1);
+		g.addFrame(frame2);
+		g.addFrame(frame3);
+		g.addFrame(frame4);
+		assertEquals(frame4.score()+g.score());
+	}
 
 }
