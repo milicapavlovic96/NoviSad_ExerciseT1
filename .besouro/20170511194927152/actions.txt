@@ -72,3 +72,11 @@ UnitTestSessionAction 1494529123364 TestBowling.java FAIL
 UnitTestCaseAction 1494529124626 TestBowling.java FAIL
 UnitTestSessionAction 1494529124626 TestBowling.java FAIL
 EditAction 1494529163015 BowlingGame.java 1211 5 8 0
+UnitTestCaseAction 1494529163732 TestBowling.java FAIL
+UnitTestSessionAction 1494529163733 TestBowling.java FAIL
+RefactoringAction 1494529311180 TestBowling.java RENAME test_bonus()=>void test_bonus_() METHOD
+RefactoringAction 1494529312686 TestBowling.java RENAME test_bonus_()=>void test_bonus_is() METHOD
+RefactoringAction 1494529314692 TestBowling.java RENAME test_bonus_is()=>void test_bonus_isSparw() METHOD
+RefactoringAction 1494529316202 TestBowling.java RENAME test_bonus_isSparw()=>void test_bonus_isSpare() METHOD
+RefactoringAction 1494529480383 TestBowling.java REMOVE test_bonus_isSpare() METHOD
+EditAction 1494530030357 BowlingGame.java 1216 5 8 0
