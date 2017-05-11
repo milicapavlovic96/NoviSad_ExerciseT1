@@ -16,3 +16,8 @@ EditAction 1494526545081 TestBowling.java 231 1 2 1
 UnitTestCaseAction 1494526545589 TestBowling.java FAIL
 UnitTestSessionAction 1494526545591 TestBowling.java FAIL
 EditAction 1494526553045 TestBowling.java 231 1 2 1
+UnitTestCaseAction 1494526553552 TestBowling.java OK
+UnitTestSessionAction 1494526553553 TestBowling.java OK
+RefactoringAction 1494526560782 TestBowling.java ADD void test_isStrike()/2 METHOD
+RefactoringAction 1494526573799 TestBowling.java RENAME test_isStrike()/2=>void test_isSpare FIELD
+EditAction 1494526588612 TestBowling.java 365 2 4 2
