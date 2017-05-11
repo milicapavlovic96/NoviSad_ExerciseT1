@@ -41,9 +41,9 @@ public class BowlingGame {
 	public int score(){
 		int rezultat=0;
 		for(int i=0;i<10;i++){
-		 rezultat=frames.get(i).score()+bonus.getFirstThrow()+bonus.getSecondThrow();
+		 rezultat=rezultat+frames.get(i).score();
 		}
-		
-		return rezultat;
+		int bonusi=bonus.getFirstThrow()+bonus.getSecondThrow();
+		return rezultat+bonusi;
 	}
 }
