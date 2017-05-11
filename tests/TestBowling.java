@@ -47,7 +47,7 @@ public class TestBowling {
 		g.addFrame(frame2);
 		g.addFrame(frame3);
 		g.addFrame(frame4);
-		assertEquals(frame4.score()+g.score());
+		assertEquals(60,g.score());
 	}
 
 }

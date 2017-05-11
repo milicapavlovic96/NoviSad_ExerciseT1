@@ -56,3 +56,11 @@ RefactoringAction 1494528710410 BowlingGame.java REMOVE import org.junit.Test IM
 EditAction 1494528912718 TestBowling.java 1148 6 20 6
 CompilationAction 1494528913023 TestBowling.java
 EditAction 1494528913042 BowlingGame.java 1156 5 5 0
+CompilationAction 1494528913354 BowlingGame.java
+CompilationAction 1494528913355 TestBowling.java
+RefactoringAction 1494529010882 TestBowling.java REMOVE test_bonus() METHOD
+CompilationAction 1494529013720 BowlingGame.java
+UnitTestCaseAction 1494529014503 TestBowling.java OK
+UnitTestSessionAction 1494529014504 TestBowling.java OK
+RefactoringAction 1494529018401 TestBowling.java ADD void test_bonus() METHOD
+EditAction 1494529036787 TestBowling.java 1136 6 20 6
